@@ -68,7 +68,7 @@ function OrderLocation({onChangeLocation} : Props) {
             loadOptions={loadOptions}
           />
         </div>
-        <MapContainer center={address.position} zoom={15} scrollWheelZoom key={address.position.lat}>
+        <MapContainer center={address.position} zoom={15} scrollWheelZoom={false} key={address.position.lat}>
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
