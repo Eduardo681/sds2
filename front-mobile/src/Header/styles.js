@@ -15,7 +15,6 @@ export const Title = styled.Text`
     letter-spacing: 0.24px; 
     color: #fff;
     margin-left: 15px;
-    font-family: 'Open Sans';
 `;
 
 export const Logo = styled.Image`
